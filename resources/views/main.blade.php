@@ -12,6 +12,9 @@
             <a class="hover:text-gray-400" href="/sh">
                 Розклад
             </a>
+        <a class="hover:text-gray-400" href="/authorship">
+            Авторство
+        </a>
     </div>
 </header>
 

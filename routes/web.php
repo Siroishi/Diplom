@@ -10,7 +10,7 @@ Route::get('/main', function () {
     return view('main');
 });
 Route::get('/dk', function () {
-    return view('dataknowledge');
+    return view('data-knowledge');
 })->name('dk');
 
 Route::get('/sh', function () {
@@ -18,8 +18,13 @@ Route::get('/sh', function () {
 })->name('sh');
 
 Route::get('/map', function () {
-    return view('institute_map');
+    return view('institute-map');
 })->name('map');
+
+Route::get('/authorship', function () {
+    return view('authorship');
+})->name('authorship');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
